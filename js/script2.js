@@ -19,4 +19,6 @@ if(odj) {
         }
     }
     document.body.append(ul);
+} else {
+    alert('Вы не заполнили таблицу');
 }
